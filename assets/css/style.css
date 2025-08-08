@@ -1,0 +1,39 @@
+*{
+    color: black;
+    background-color: rgb(190, 205, 235);
+    margin-left: 5px; 
+}
+h1{
+    background: rgb(94, 94, 216);
+    margin-left: 20px;
+}
+img{
+    border-radius: 10%;
+    margin-left: 30px;
+}
+#sub2{
+   color: rgb(4, 8, 240);
+}
+.sub1{
+   color: rgb(4, 8, 240);
+  
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+.sub4{
+    color: rgb(94, 94, 216);
+    margin-left: 45px;
+    font-size: 25px;
+    background: rgb(179, 198, 236);
+}
+h3{
+    color: blue;
+    background: rgb(179, 198, 236);
+    margin-left: 15px;
+}
