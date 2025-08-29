@@ -1,21 +1,24 @@
 *{
     color: black;
-    background-color: rgb(190, 205, 235);
+    background-color: #c5dfeb;
     margin-left: 5px; 
 }
 h1{
-    background: rgb(94, 94, 216);
+    background: #5cb6e0;
     margin-left: 20px;
 }
 img{
-    border-radius: 10%;
+    border-radius: 100%;
     margin-left: 30px;
+    height: 320px;
+    width: 262px;
+    border: 5px solid #000000;
 }
-#sub2{
-   color: rgb(4, 8, 240);
+#sub2{f
+   color: #2c88b3;
 }
 .sub1{
-   color: rgb(4, 8, 240);
+   color: #2c88b3;
   
 }
 body {
@@ -27,13 +30,71 @@ body {
     padding: 20px;
 }
 .sub4{
-    color: rgb(94, 94, 216);
+    color: #5cb6e0;
     margin-left: 45px;
     font-size: 25px;
-    background: rgb(179, 198, 236);
+    
 }
 h3{
-    color: blue;
-    background: rgb(179, 198, 236);
+    color: #5cb6e0;
+   
     margin-left: 15px;
+}
+
+.container{
+    display: flex ;
+    flex-wrap: wrap ;
+    justify-content: center ;
+    margin-top: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card{
+    background-color: #5cb6e0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px black;
+    margin: 1.75rem;
+    padding: 1rem;
+    width: 10rem;
+    text-align: center;
+    transition: transforme 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover{
+    transform:translateY(-10);
+    box-shadow: 0 8px 16px black;
+}
+.card i{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.fa-html5{
+    color: rgb(196, 40, 40);
+
+}
+.fa-css3-alt{
+    color: rgb(25, 25, 230);
+}
+.fa-js{
+    color: rgb(219, 219, 5);
+}
+.fa-react{
+    color: rgb(3, 82, 104);
+}
+.fa-node{
+    color:rgb(3, 122, 3);
+}
+.fa-database{
+    color:#000000;
+}
+.fa-brands, .fa-solid{
+    background-color:#5cb6e0;
+}
+.card h2{
+    background-color:#5cb6e0;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+.card p{
+    background-color:#5cb6e0;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
 }
